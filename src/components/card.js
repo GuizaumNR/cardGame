@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Card({ text }) {
+const Card = ({ card }) => {
   return (
     <div className="card">
-      <p>{text}</p>
+      <p>{card.value} de {card.suit}</p>
     </div>
   );
-}
+};
 
 export default Card;
