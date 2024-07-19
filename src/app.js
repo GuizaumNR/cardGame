@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Home from './pages/home';
-import Login from './pages/login';
-import Register from './pages/register';
-import Game from './pages/game';
+import Home from './frontend/pages/home';
+import Login from './frontend/pages/login';
+import Register from './frontend/pages/register';
+import Game from './frontend/pages/game';
 
 function App() {
   return (
